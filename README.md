@@ -98,7 +98,7 @@ Person# | Name | Department# | Department name
 
 becomes ->
 
-Person#|Name|Department name
+Person#|Name|Department#
 ---|---|---
 100|Hans|1
 101|Paul|2
