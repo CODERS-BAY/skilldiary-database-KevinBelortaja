@@ -63,7 +63,7 @@ Redundancy: <br>
 A company saves after every order the costumer ID, name and address <br>
 
 Anomaly: <br>
-Student# | Lecture# | Student name | Student address | Lecture name
+Student# | Lecture#
 ---|---
-S21 | 8754 | Bob | Linz | Database
-S33 | 8750 |Ben | Wels | Java
+S21 | 8754
+S33 | 8750 
