@@ -68,21 +68,21 @@ Student# | Lecture# | Student name | Student address | Lecture name
 S21 | 8754 | Bob | Linz | Database
 S33 | 8750 | Ben | Wels | Java
 
-##Update Anomaly:
+## Update Anomaly:
 If something changes, everything needs to be changed <br>
 
-##Insert Anomaly:
+## Insert Anomaly:
 Nothing can be empty
 
-##Delete Anomaly:
+## Delete Anomaly:
 If something is deleted, everything in this row should be deleted too.
 
 
-###1NF
+### 1NF
 Functional dependent from the total-key
 
-###2NF
+### 2NF
 no functional dependence from key-parts
 
-###3NF
+### 3NF
 no functional dependence from non-key-attributes
