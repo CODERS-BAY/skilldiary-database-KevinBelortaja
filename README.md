@@ -86,3 +86,27 @@ no functional dependence from key-parts
 
 ### 3NF
 no functional dependence from non-key-attributes
+
+
+#### Example 3NF:
+
+Person# | Name | Department# | Department name
+---|---|---|---
+100|Hans|1|Chemistry
+101|Paul|2|English
+102|Georg|2|English
+
+->
+
+Person#|Name|Department name
+---|---|---
+100|Hans|1
+101|Paul|2
+102|Georg|2
+
+and...
+
+Department#|Department name
+---|---
+1|Chemistry
+2|English
