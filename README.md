@@ -63,7 +63,26 @@ Redundancy: <br>
 A company saves after every order the costumer ID, name and address <br>
 
 Anomaly: <br>
-Student# | Lecture# | Student name
----|---|---
-S21 | 8754 | Bob
-S33 | 8750 | Ben
+Student# | Lecture# | Student name | Student address | Lecture name
+---|---|---|---|---
+S21 | 8754 | Bob | Linz | Database
+S33 | 8750 | Ben | Wels | Java
+
+##Update Anomaly:
+If something changes, everything needs to be changed <br>
+
+##Insert Anomaly:
+Nothing can be empty
+
+##Delete Anomaly:
+If something is deleted, everything in this row should be deleted too.
+
+
+###1NF
+Functional dependent from the total-key
+
+###2NF
+no functional dependence from key-parts
+
+###3NF
+no functional dependence from non-key-attributes
