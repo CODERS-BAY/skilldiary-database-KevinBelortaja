@@ -96,7 +96,7 @@ Person# | Name | Department# | Department name
 101|Paul|2|English
 102|Georg|2|English
 
-->
+becomes ->
 
 Person#|Name|Department name
 ---|---|---
