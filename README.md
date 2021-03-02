@@ -54,7 +54,7 @@ Instead of connecting two n:m (E1 - E2) entitys with one relationship, you shoul
 E1 n:---------------------:M E2 <br>
 E1 1:-----:n E1_E2 n:-----:1 E2 <br>
 
-## 3. DB 24.2
+# 3. DB 24.2
 
 Generalisation - Specialisation <br>
 A car consists of a engine and auto body <br>
@@ -68,7 +68,7 @@ Student# | Lecture# | Student name | Student address | Lecture name
 S21 | 8754 | Bob | Linz | Database
 S33 | 8750 | Ben | Wels | Java
 
-## Update Anomaly:
+### Update Anomaly:
 If something changes, everything needs to be changed <br>
 
 ## Insert Anomaly:
@@ -78,7 +78,7 @@ Nothing can be empty
 If something is deleted, everything in this row should be deleted too.
 
 
-### 1NF
+#### 1NF
 Functional dependent from the total-key
 
 ### 2NF
