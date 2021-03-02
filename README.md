@@ -9,7 +9,9 @@ Attribut - Eigenschaften (circle)
 n:1 (students in school)<br>
 n:m (family and car)
 
-participant (Nr: int; Name: varchar)
+participant (Nr: int; Name: varchar) <br>
+
+primary key identiefies an entity
 
 
 # 2.DB - 17.2
@@ -49,9 +51,19 @@ Foreign key: <br>
 N:M
 Instead of connecting two n:m (E1 - E2) entitys with one relationship, you should connect the first entity (E1) with the previous two entitys (E1_E2) and that with the second entity from the previous one (E2) <br>
 
-E1 n:-------------------:M E2 <br>
-E1 1:---:n E1_E2 n:-----:1 E2 <br>
+E1 n:---------------------:M E2 <br>
+E1 1:-----:n E1_E2 n:-----:1 E2 <br>
 
 ## 3. DB 24.2
 
-p.36
+Generalisation - Specialisation <br>
+A car consists of a engine and auto body <br>
+
+Redundancy: <br>
+A company saves after every order the costumer ID, name and address <br>
+
+Anomaly: <br>
+Student# | Lecture# | Student name | Student address | Lecture name
+---|---
+S21 | 8754 | Bob | Linz | Database
+S33 | 8750 |Ben | Wels | Java
