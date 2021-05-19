@@ -159,3 +159,14 @@ FROM employees <br>
 JOIN departments <br>
 ON employees.department_id = departments.department_id; <br>
 
+
+## Konzeptionelles Schema
+
+Beschreibung der logischen Dateien und der darin enthaltenen Record - Typen (nicht aber Angaben zur physischen Implementierung) <br>
+Beschreibung der Felder, die in einem bestimmten Satztyp vorkommen <br>
+Beschreibung der Beziehungen (Relationen) zwischen den logisch zusammengehörenden Satztypen einer Datenbank <br>
+Beschreibung der Gültigkeitsbereiche einzelner Felder <br>
+
+## Sub-Supertyp
+Bei der Spezialisierung wird ein Entitätstyp als Teilmenge eines anderen, ‚übergeordneten‘ Entitätstyps angenommen. Im Supertyp sind alle Attribute, die den Subtypen gemeinsam sind. Im Subtyp 1 findet man alle Attribute, die nur dort und nicht in den anderen Subtypen oder dem Supertyp vorkommen. Damit generalisiert der Supertyp.
+
