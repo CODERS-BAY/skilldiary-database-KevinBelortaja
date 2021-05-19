@@ -110,3 +110,52 @@ Department#|Department name
 ---|---
 1|Chemistry
 2|English
+
+
+# Fortsetzung
+
+## Select
+
+Wählt das aus was du haben willst und gibt es aus
+
+## Where
+
+Bei der Auswahl beziehungsweise Filterung mithilfe von WHERE innerhalb der SELECT-Anweisung kann man Vergleichsoperatoren anwenden <br>
+>= gleich <br>
+<> ungleich  <br>
+(>) größer als  <br>
+(>=) größer gleich als  <br>
+< kleiner als  <br>
+<= kleiner gleich als  <br>
+NOT der Wahrheitswert einer Bedingung wird umgekehrt <br>
+AND alle Bedingungen müssen zutreffen <br>
+OR mindestens eine Bedingung muss zutreffen <br>
+
+## Joins
+
+Joins verbindet zwei oder mehrere Relationen miteinander
+
+### Cross Join
+Jede Zeile von R1 verbunden mit jeder Zeile von R2
+
+### INNER JOIN
+Verbindet alle Zeilen von R1 und R2 miteinander, wo ein Match gefunden wird.
+
+### OUTER JOIN
+Verbindet alle Zeilen von R1 und R2 miteinander, wo ein Match gefunden wird. Wo keiner gefunden wird, wird der Rest mit NULL aufgefüllt.
+
+### LEFT JOIN
+Jede Zeile von R1 verbunden mit dazupassenden Zeilen von R2
+
+### RIGHT JOIN
+Jede Zeile von R2 verbunden mit dazupassenden Zeilen von R1
+
+### NATURAL JOIN
+Natürlicher Verbund von R1 und R2 bei gleichnamiger Spalte <br>
+
+Beispiel: <br>
+SELECT employees.last_name, departments.department_name <br>
+FROM employees <br>
+JOIN departments <br>
+ON employees.department_id = departments.department_id; <br>
+
