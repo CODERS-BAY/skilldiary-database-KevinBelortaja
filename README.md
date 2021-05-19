@@ -170,3 +170,13 @@ Beschreibung der Gültigkeitsbereiche einzelner Felder <br>
 ## Sub-Supertyp
 Bei der Spezialisierung wird ein Entitätstyp als Teilmenge eines anderen, ‚übergeordneten‘ Entitätstyps angenommen. Im Supertyp sind alle Attribute, die den Subtypen gemeinsam sind. Im Subtyp 1 findet man alle Attribute, die nur dort und nicht in den anderen Subtypen oder dem Supertyp vorkommen. Damit generalisiert der Supertyp.
 
+# Constraints
+
+Einschränkungen – beispielsweise referentielle Integrität (siehe Theorie), (kein) Eingabezwang in Felder, Zulassen / Rückweisen bestimmter Werte <br>
+werden vom DBMS geprüft <br>
+Table – Constraint <br>
+Column - Constraint <br>
+
+## UNIQUE – Constraint I 
+
+Definiert, dass in einer (oder einer Kombination mehrerer) Spalte(n) (ein) Wert(e) nur einmal vorkommen darf. NULL – Werte sind zugelassen!
